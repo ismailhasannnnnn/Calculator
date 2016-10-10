@@ -63,7 +63,7 @@ public class Calculator {
 		break;
 		
 		case 4: option = 4;
-		System.out.println("You chose to divide.");
+		System.out.println("You chose to divide.");//very much so an option
 		System.out.println("What is the first number you'd like to divide?");
 		int d1 = scanner.nextInt();
 		System.out.print("What about the second number?");
