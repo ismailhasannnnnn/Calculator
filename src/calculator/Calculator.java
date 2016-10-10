@@ -38,46 +38,44 @@ public class Calculator {
 		case 1: option = 1;
 		System.out.println("You chose to add.");
 		System.out.println("What is the first number you'd like to add?");
-		int a1 = scanner.nextInt();
+		double a1 = scanner.nextDouble();
 		System.out.print("What about the second number?");
-		int a2 = scanner.nextInt();
+		double a2 = scanner.nextDouble();
 		System.out.print(a1 + a2);
 		break;
 		
 		case 2: option = 2;
 		System.out.println("You chose to subtract.");
 		System.out.println("What is the first number you'd like to subtract?");
-		int s1 = scanner.nextInt();
+		double s1 = scanner.nextDouble();
 		System.out.print("What about the second number?");
-		int s2 = scanner.nextInt();
+		double s2 = scanner.nextDouble();
 		System.out.print(s1 - s2);
 		break;
 		
 		case 3: option = 3;
 		System.out.println("You chose to multiply.");
 		System.out.println("What is the first number you'd like to multiply?");
-		int m1 = scanner.nextInt();
+		double m1 = scanner.nextDouble();
 		System.out.print("What about the second number?");
-		int m2 = scanner.nextInt();
+		double m2 = scanner.nextDouble();
 		System.out.print(m1 * m2);
 		break;
 		
 		case 4: option = 4;
 		System.out.println("You chose to divide.");//very much so an option
 		System.out.println("What is the first number you'd like to divide?");
-		int d1 = scanner.nextInt();
+		double d1 = scanner.nextDouble();
 		System.out.print("What about the second number?");
-		int d2 = scanner.nextInt();
+		double d2 = scanner.nextDouble();
 		System.out.print(d1 / d2);
 		break;
 		
 		default: option = 5;//not an option
 		System.out.println("That is not a valid option. Please try again.");
 		break;
-		
-		
-		}
 	
+		}
 			
 		}
 		
