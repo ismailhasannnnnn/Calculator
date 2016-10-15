@@ -18,6 +18,8 @@ public class Calculator {
 		// TODO Auto-generated method stub
 		
 		Scanner scanner = new Scanner(System.in);
+		char again = 'y';
+		while(again == 'y'){
 		
 		System.out.println("What would you like to do?");
 		System.out.println("Add, Subtract, Multiply, or Divide? (1,2,3,4?)");
@@ -72,16 +74,32 @@ public class Calculator {
 		break;
 		
 		default: option = 5;//not an option
-		System.out.println("That is not a valid option. Please try again.");
-		break;
+		System.out.println("That is not a valid option.");
+		}
+		System.out.println("");
+		System.out.println("Would you like to start from the beginning?");
+		System.out.println("(y/n)");
+		again = scanner.next().charAt(0);
+		
+			
+		}
+		System.out.println("Have a nice day!");
+		
+		
+		
+		}
+		
+}
+		
+		
 	
-		}
-			
-		}
+
+
 		
-			
-		}
+	
 		
+	
+
 
 	
 
