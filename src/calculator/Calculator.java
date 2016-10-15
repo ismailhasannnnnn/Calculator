@@ -38,7 +38,7 @@ public class Calculator {
 		
 		switch (option){
 		case 1: option = 1;
-		System.out.println("You chose to add.");
+		System.out.println("You chose to add."); // option 1
 		System.out.println("What is the first number you'd like to add?");
 		double a1 = scanner.nextDouble();
 		System.out.print("What about the second number?");
@@ -47,7 +47,7 @@ public class Calculator {
 		break;
 		
 		case 2: option = 2;
-		System.out.println("You chose to subtract.");
+		System.out.println("You chose to subtract."); // option 2
 		System.out.println("What is the first number you'd like to subtract?");
 		double s1 = scanner.nextDouble();
 		System.out.print("What about the second number?");
@@ -56,7 +56,7 @@ public class Calculator {
 		break;
 		
 		case 3: option = 3;
-		System.out.println("You chose to multiply.");
+		System.out.println("You chose to multiply."); // option 3
 		System.out.println("What is the first number you'd like to multiply?");
 		double m1 = scanner.nextDouble();
 		System.out.print("What about the second number?");
